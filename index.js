@@ -156,9 +156,7 @@ run().catch(console.dir);
 app.get('/',(req,res)=>{
     res.send('delivery is okay')
 });
-app.get('/hello',(req,res)=>{
-    res.send('delivery is okay now we are very happy')
-});
+
 
 app.listen(port,()=>{
     console.log('server running ',port)
